@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ - アクティブ ファイルのビルドとデバッグ",
+            "name": "gcc-9 - アクティブ ファイルのビルドとデバッグ",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -22,8 +22,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ アクティブなファイルのビルド",
-            "miDebuggerPath": "/usr/bin/gdb"
+            "preLaunchTask": "C/C++: gcc-9 アクティブなファイルのビルド",
+            "miDebuggerPath": "/bin/gdb"
         }
     ]
 }
